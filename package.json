@@ -1,13 +1,13 @@
 {
-  "name": "nrm ",
-  "version": "1.0.0",
+  "name": "hugo-lovelt-algolia",
+  "version": "1.0.6",
   "description": "Enables search with Algolia in Hugo static sites",
-  "repository": "https://github.com/replicatedhq/hugo-algolia.git",
+  "repository": "https://github.com/lxw15337674/hugo-lovelt-algolia",
   "author": "Sloane Smith <s10dimensional@gmail.com>",
   "license": "ISC",
   "main": "lib/index.js",
   "bin": {
-    "hugo-algolia": "bin/index.js"
+    "hugo-lovelt-algolia": "bin/index.js"
   },
   "scripts": {
     "test": "bin/index.js"
