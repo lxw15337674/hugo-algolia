@@ -1,6 +1,6 @@
 {
-  "name": "hugo-algolia",
-  "version": "1.2.14",
+  "name": "nrm ",
+  "version": "1.0.0",
   "description": "Enables search with Algolia in Hugo static sites",
   "repository": "https://github.com/replicatedhq/hugo-algolia.git",
   "author": "Sloane Smith <s10dimensional@gmail.com>",
@@ -28,3 +28,4 @@
     "truncate-utf8-bytes": "^1.0.2"
   }
 }
+ 
