@@ -1,4 +1,5 @@
 # hugo-lovelt-algolia
+[背景](https://lxw15337674.github.io/posts/hugo/)
 
 因为[hugo-algolia](https://github.com/replicatedhq/hugo-algolia)生成的索引文件uri是相对路径，会导致搜索结果的url出问题（具体在这个[issues](https://github.com/dillonzq/LoveIt/issues/421)里）。网上的教程都不正确，都会出现这个问题。为了解决这个问题，我修改了[hugo-algolia](https://github.com/replicatedhq/hugo-algolia)源码，加上了`baseURL`（ 如果没有设置默认为相对路径）,作为路径前缀配置，解决这个问题。
 
